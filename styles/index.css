@@ -18,7 +18,8 @@ body {
 
 
 content {
-	width: 1300px;
+	max-width: 1300px;
+	width: 70%;
 	height: 100%;
 	margin: 0 auto;
 	position: relative;
@@ -343,4 +344,17 @@ h2 {
 }
 .domen__table tr:nth-child(even) {
 	background-color: #2E315A;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1220px)
+{
+	menu {
+		display: none;
+	}
 }
